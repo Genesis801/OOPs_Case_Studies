@@ -28,7 +28,7 @@ public class TransactionMain {
 	
 	public static void checkBalance(int accNum,double balance) {
 		Scanner sc=new Scanner(System.in);
-		BalanceInquiry be=new BalanceInquiry(accNum);
+		BalanceEnquiry be=new BalanceEnquiry(accNum);
 		
 		be.execute(balance);
 		
